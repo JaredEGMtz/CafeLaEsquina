@@ -8,7 +8,7 @@
     --primary-color: #4E342E;
     --secondary-color: #F5F5DC;
     --text-color: #F5F5DC;
-    --background-color: #C9A646;
+    --background-color: #3E2723;
 }
 
 body {
@@ -20,6 +20,11 @@ body {
 
 /* Estilos de la barra de navegación */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: transparent;
     color: white;
     display: flex;
@@ -173,4 +178,35 @@ body {
 }
 .btn:hover {
     transform: scale(1.03);
+}
+
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-rows: auto auto; /* fila para título + fila para bloques */
+    gap: 20px;
+    padding: 20px;
+}
+
+.titulo {
+    grid-column: 1 / -1; /* El título ocupa todo el ancho */
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.item {
+    text-align: center;
+    background-color: rgba(78, 52, 46, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.descripcion{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
 }
