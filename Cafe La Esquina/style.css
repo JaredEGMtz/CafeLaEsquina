@@ -52,7 +52,7 @@ body {
 }
 
 .navbar-links {
-    font-size: 25px;
+    font-size: 20px;
     list-style: none;
     display: flex;
     margin: 0;
@@ -174,7 +174,7 @@ body {
     border: none;
     border-radius: 4rem;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 33px;
     transition: 0.3s ease;
     cursor: pointer;
     letter-spacing: 0.1rem;
@@ -183,6 +183,16 @@ body {
     transform: scale(1.03);
 }
 
+.menu{
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
 
 .menu-container {
    display: grid;
@@ -195,27 +205,43 @@ body {
 .titulo {
     text-align: right;
     grid-column: 1 / -1;
-    font-size: 3rem;
+    font-size: 40px;
     color: #fff;
 }
 
 .item {
+    font-size: 14px;
     background-color: rgba(78, 52, 46, 0.7);
     color: white;
     padding: 15px;
     border-radius: 10px;
-    display: flex;              
-    justify-content: center;     
-    align-items: center;        
-    text-align: center;          
+        
 
 }
+
+.item-subtitulo{
+    font-size: 20px;
+    color: white;                        
+}
 .descripcion{
+    font-size: 18px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     padding: 15px;
     border-radius: 10px;
+}
+
+.nosotros{
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
 }
 
 .nosotros-container{
@@ -226,21 +252,31 @@ body {
     padding: 20px;
 }
 
-.tituloN{
+.titulo2{
     grid-column: 1/-1;
     text-align: left;
-    font-size: 3rem;
+    font-size: 40px;
     color: #fff;
 }
 
 .item2{
-    font-size: 30px;
+    font-size: 27px;
     grid-column: 2;
     text-align: right;
     color: white;
     padding: 10px;
 }
 
+.contacto{
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
 
 .contacto-container{
     display: grid;
@@ -250,9 +286,22 @@ body {
     padding: 20px;
 }
 
-.titulo2{
+.titulo3{
     grid-column: 1/-1;
     text-align: center;
-    font-size: 3rem;
+    font-size: 40px;
     color: #fff;
+}
+
+.item3{
+    font-size: 20px;
+    background-color: rgba(78, 52, 46, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;              
+    justify-content: center;     
+    align-items: center;        
+    text-align: center;          
+
 }

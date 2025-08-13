@@ -11,7 +11,7 @@
     <nav class="navbar">
         <a href="#" class="navbar-brand">
             <!-- Inserta tu logo aquí. El 'alt' es importante para accesibilidad -->
-            <img class="img" src="img/Logo Cafe La Esquina (1).svg" alt="Mi Marca Logo">
+            <img src="img/Logo Cafe La Esquina (1).svg" alt="Mi Marca Logo">
         </a>
         <div class="toggle-button" id="toggle-button">
             <span class="bar"></span>
@@ -20,9 +20,9 @@
         </div>
         <ul class="navbar-links" id="navbar-links">
             <li><a href="#hero"><span>Inicio</span></a></li>
-            <li><a href="#menu-container"><span>Servicios</span></a></li>
-            <li><a href="#nosotros-container"><span>Nosotros</span></a></li>
-            <li><a href="#contacto-container"><span>Contacto</span></a></li>
+            <li><a href="#menu"><span>Servicios</span></a></li>
+            <li><a href="#nosotros"><span>Nosotros</span></a></li>
+            <li><a href="#contacto"><span>Contacto</span></a></li>
         </ul>
     </nav>
 
@@ -32,73 +32,89 @@
         <a href="#" class="btn">Visítenos</a>
     </section>
 
+    <section class="menu" id = "menu">
+        <div class="menu-container">
+            <h1 class="titulo">Nuestro Menú</h1>
 
-    <div class="menu-container" id="menu-container">
-    <h1 class="titulo">Nuestro Menú</h1>
-
-    <div class="item">
-                    Panaderia artesanal <br><br>
-                    * Concha rellena de crema de avellana - $25 <br>
-                    * Pan de elote casero - $22 <br>
-                    * Croissant con mermelada natural - $28 <br>
-                    * Panque de plátano con nuez - $24</div>
-    <div class="item">Cafés Calientes <br><br>
-                    * Americano (Chico - $20 / Grande - $24) <br>
-                    * Capuchino clasico - $30 <br>
-                    * Latte vainilla/caramelo - $32 <br>
-                    * Moka artesanal - $35 <br>
-                    * Espresso doble - $25</div>
-    <div class="item">Cafés Fríos <br> <br>
-                    * Cold brew (cafe en frio) - $30 <br>
-                    * Frappe clasico (vainilla, oreo o moka) - $35 <br>
-                    * Latte frio con caramelo - $32 <br>
-                    * Te chai frio con leche de almendra - $36</div>
-    <div class="item">Bebidas Extras <br><br>
-                    * Agua de Jamaica o Horchata (natural) - $18 <br>
-                    * Te caliente (limon, manzanilla, frutos rojos) - $20 <br>
-                    * Chocolante caliente artesanal - $30</div>
-    <div class="item">Postres <br> <br>
-                    * Brownie con nuez caliente - $28 <br>
-                    * Cheesecake de fresa - $30 <br>
-                    * Galleta gigante de chispas - $20</div>
-    <div class="descripcion">Todos nuestros productos son elaborados al momento 
-                    con ingredientes locales y mucho cariño. Puedes pedir 
-                    para llevar o para disfrutar aqui mismo</div>
-    </div>
-
-
-    <div class="nosotros-container" id="nosotros-container">
-        <div class="tituloN">Nuestra Historia</div>
-
-        <div class="item2">Vendemos cafe artesal, pan dulce, postres caseros y snacks</div>
-        <div class="item2">Estamos desde 2022</div>
-        <div class="item2">Nacimos como un proyecto familiar con la idea de que la gente tenga un lugar 
-                           tranquilo donde disfrutar un buen cafe
+            <div class="item">
+                            <p class="item-subtitulo">Panaderia artesanal</p> <br>
+                            * Concha rellena de crema de avellana - $25 <br>
+                            * Pan de elote casero - $22 <br>
+                            * Croissant con mermelada natural - $28 <br>
+                            * Panque de plátano con nuez - $24</div>
+            <div class="item"> 
+                            <p class="item-subtitulo">Cafés Calientes</p><br>
+                            * Americano (Chico - $20 / Grande - $24) <br>
+                            * Capuchino clasico - $30 <br>
+                            * Latte vainilla/caramelo - $32 <br>
+                            * Moka artesanal - $35 <br>
+                            * Espresso doble - $25</div>
+            <div class="item">
+                            <p class="item-subtitulo">Cafés Fríos</p><br>
+                            * Cold brew (cafe en frio) - $30 <br>
+                            * Frappe clasico (vainilla, oreo o moka) - $35 <br>
+                            * Latte frio con caramelo - $32 <br>
+                            * Te chai frio con leche de almendra - $36</div>
+            <div class="item">
+                            <p class="item-subtitulo">Bebidas Extras</p><br>
+                            * Agua de Jamaica o Horchata (natural) - $18 <br>
+                            * Te caliente (limon, manzanilla, frutos rojos) - $20 <br>
+                            * Chocolante caliente artesanal - $30</div>
+            <div class="item">
+                            <p class="item-subtitulo">Postres</p><br>
+                            * Brownie con nuez caliente - $28 <br>
+                            * Cheesecake de fresa - $30 <br>
+                            * Galleta gigante de chispas - $20</div>
+            <div class="descripcion">
+                            Todos nuestros productos son elaborados al momento 
+                            con ingredientes locales y mucho cariño. Puedes pedir 
+                            para llevar o para disfrutar aqui mismo
+            </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="contacto-container" id="contacto-container">
-        <div class="titulo2">Contactanos</div>
+    <section class="nosotros" id="nosotros">
+        <div class="nosotros-container">
+            <div class="titulo2">Nuestra Historia</div>
 
-        <div class="item">Tel: <br>
-                     55 1234 5678 <br>
-                        Email: <br>
-                 contacto@cafeesquina.com <br>
-                        WhatsApp: <br>
-                    55 8765 4321 <br>
-                        Instagram: <br>
-                    @cafeesquina <br>
-                        Facebook: <br>
-                facebook.com/cafeesquina
+            <div class="item2">Vendemos cafe artesal, pan dulce, postres caseros y snacks</div>
+            <div class="item2">Estamos desde 2022</div>
+            <div class="item2">Nacimos como un proyecto familiar con la idea de que la gente tenga un lugar 
+                            tranquilo donde disfrutar un buen cafe
+            </div>
         </div>
-        <div class="item">Ubicacion: <br>
-            Av. Central #245, Colonia Centro, CDMX <br>
-                            Horario: <br>
-                Lunes a Viernes: 8:00 am - 8:00 pm <br>
-                Sabados y Domingos: 9:00 am - 9:00 pm <br>
+    </section>
+
+    
+
+    <section class="contacto" id="contacto">
+        <div class="contacto-container">
+            <div class="titulo3">Contactanos</div>
+
+            <div class="item3">Tel: <br>
+                        55 1234 5678 <br>
+                            Email: <br>
+                    contacto@cafeesquina.com <br>
+                            WhatsApp: <br>
+                        55 8765 4321 <br>
+                            Instagram: <br>
+                        @cafeesquina <br>
+                            Facebook: <br>
+                    facebook.com/cafeesquina
+            </div>
+            <div class="item3">Ubicacion: <br>
+                Av. Central #245, Colonia Centro, CDMX <br>
+                                Horario: <br>
+                    Lunes a Viernes: 8:00 am - 8:00 pm <br>
+                    Sabados y Domingos: 9:00 am - 9:00 pm <br>
+            </div>
         </div>
-    </div>
+
+    </section>
+
+
+    
 
     <script src="script.js"></script>
 </body>
